@@ -36,3 +36,4 @@ jobs:
         app_location: "app/static"        # Location of the static assets
         api_location: "app"              # Location of the FastAPI backend
         output_location: "app/static/dist" # Output folder of the static web app
+        deployment_action: "upload"        # Specify the deployment action
