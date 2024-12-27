@@ -1,0 +1,14 @@
+{
+    "name": "group-games-static",
+    "version": "1.0.0",
+    "scripts": {
+      "build": "vite build"  // Replace with your static app build command (e.g., "vite build" or "react-scripts build")
+    },
+    "dependencies": {
+      "your-dependencies": "versions"
+    },
+    "devDependencies": {
+      "your-dev-dependencies": "versions"
+    }
+  }
+  
