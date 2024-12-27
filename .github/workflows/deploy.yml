@@ -36,4 +36,4 @@ jobs:
         app_location: "app/static"        # Location of the static assets
         api_location: "app"              # Location of the FastAPI backend
         output_location: "app/static/build" # Output folder of the static web app
-        deployment_action: "npm run build"        # Specify the deployment action
+        deployment_action: "upload"        # Correct value for deployment_action
