@@ -25,7 +25,7 @@ jobs:
       run: |
         cd app/static
         npm install
-        npm run build
+        # npm run build
         cd ../..
 
     # Step 4: Deploy to Azure Static Web Apps
