@@ -19,14 +19,13 @@ jobs:
       uses: actions/setup-node@v3
       with:
         node-version: '16' # Ensure compatibility with your static app's build tools
-
+    
     # Step 3: Install dependencies and build the static web app
     - name: Build static web app
       run: |
         cd app/static
         npm install
         npm run build
-        cd ../..
 
     # Step 4: Deploy to Azure Static Web Apps
     - name: Deploy to Azure Static Web Apps
