@@ -25,7 +25,7 @@ jobs:
       run: |
         cd app/static
         npm install
-        # npm run build
+        npm run build
         cd ../..
 
     # Step 4: Deploy to Azure Static Web Apps
@@ -35,5 +35,5 @@ jobs:
         azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
         app_location: "app/static"        # Location of the static assets
         api_location: "app"              # Location of the FastAPI backend
-        output_location: "" # Output folder of the static web app
-        deployment_action: "upload"        # Specify the deployment action
+        output_location: "app/static/build" # Output folder of the static web app
+        deployment_action: "npm run build"        # Specify the deployment action
