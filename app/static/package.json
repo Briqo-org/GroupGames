@@ -3,12 +3,6 @@
     "version": "1.0.0",
     "scripts": {
       "build": "vite build" 
-    },
-    "dependencies": {
-      "your-dependencies": "versions"
-    },
-    "devDependencies": {
-      "your-dev-dependencies": "versions"
     }
   }
   
