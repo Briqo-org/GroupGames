@@ -1,8 +1,8 @@
 {
     "name": "group-games-static",
     "version": "1.0.0",
-    "scripts": {
-      
+    "scripts": {      
+        "build": "echo 'No build needed'"
     }
   }
   
